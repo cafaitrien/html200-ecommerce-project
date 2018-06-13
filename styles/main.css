@@ -1,7 +1,7 @@
 /***************** FONTS AND HEADERS *****************/
 
 body {
-  margin-top: : 40px;
+  margin-top: 40px;
 }
 
 p {
@@ -30,6 +30,12 @@ h1 {
 }
 
 h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: #2d2d2d;
+}
+
+h3 {
   padding-top: 1.5rem;
   padding-bottom: 1.5em;
   font-size: 1.3rem;
@@ -41,12 +47,11 @@ h2 {
 }
 
 
-h3 {
+h4 {
   font-size: 1.2rem;
   text-align: center;
   color: #2d2d2d;
 }
-
 
 /***************** LOGO *****************/
 
@@ -70,6 +75,9 @@ img {
   border-right: 2px solid darkgrey;
   padding-right: 10px;
   padding-left: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #2d2d2d;
 }
 
 .main-nav li:last-child {
@@ -230,7 +238,9 @@ nav ul {
       "footer footer  footer"
    }
    nav ul {
-     flex-direction: column;
+     /* flex-direction: column; */
+     display: flex;
+     justify-content: center;
    }
 }
 
